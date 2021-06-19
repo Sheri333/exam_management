@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Edit_Activityl">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:id="@+id/ed_id"
+        android:textSize="20sp"
+        android:enabled="false"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/ed_name"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll No."
+        android:id="@+id/ed_roll"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/ed_email"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/ed_course1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Course 1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_course2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Course 2"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_course3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Course 3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_course4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Course 4"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Update"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:onClick="btn_updateData"
+        />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.projectregistration.registration">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".exammodule" />
+        <activity android:name=".slips" />
+        <activity
+            android:name=".AddModifyTask"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".exammain" />
+        <activity android:name=".exam" />
+        <activity android:name=".Edit_Activityl" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".MainActivityl" />
+        <activity android:name=".Add_Data_Activity" />
+        <activity android:name=".MainActivitydst" />
+        <activity android:name=".MainActivitylcomputer"/>
+        <activity android:name=".Add_Data_Activitycomputer"/>
+        <activity android:name=".Edit_Activitylcomputer"/>
+       <activity android:name=".DetailActivitycomputerscience"/>
+        <receiver android:name=".NetworkMonitor">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

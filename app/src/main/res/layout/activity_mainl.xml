@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityl">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myListView">
+
+
+    </ListView>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/bt46"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimary"
+        android:text="show"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="180dp" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/bt45"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimary"
+        android:text="refresh"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="110dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_blackcc_24dp"
+        android:onClick="btn_add_activity"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        />
+
+
+</RelativeLayout>
